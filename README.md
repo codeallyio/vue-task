@@ -6,9 +6,11 @@ You already downloaded the sample data set of some past launches and put it to `
 
 ## TODO
 
-Create the `Launches.vue` component and display the data from `/assets/data-set.vue` in the best way you can.
+Your task is to display the data from `/assets/data-set.vue`. Every launch should be located in a dedicated HTML container.
+They should be positioned in the centre of the screen and lay one under another. Make each container contain three elements:
+`mission_name`, `rocket_name` and `launch_date_local`.
 
-You are allowed to configure already existing files in any way you wish. You can also download external packages.
+You are allowed to configure already existing files. You can also download external packages.
 
 
 ## Project setup
