@@ -35,7 +35,7 @@ export default {
 
 <style scoped>
 #launches-title {
-  color: forestgreen;
+  color: darkblue;
 }
 
 #launches-container {
@@ -52,5 +52,7 @@ export default {
   max-width: 800px;
   border: solid black 1px;
   margin: 5px;
+  display: flex;
+  justify-content: space-around;
 }
 </style>

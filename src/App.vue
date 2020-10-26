@@ -24,3 +24,9 @@ export default {
   margin-top: 60px;
 }
 </style>
+
+<style scoped>
+img {
+  width: 120px;
+}
+</style>

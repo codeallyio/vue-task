@@ -28,6 +28,11 @@ export default {
 }
 
 .element {
-  color: gray;
+  color: lightslategrey;
+  text-transform: lowercase;
+}
+
+.value {
+  font-weight: 600;
 }
 </style>
