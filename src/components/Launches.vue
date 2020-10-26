@@ -3,7 +3,14 @@
     <h1 id="launches-title">SpaceX Launches</h1>
     <div id="launches-container">
       <div class="launch-box" v-for="(launch, x) in launchesData" :key="x">
-        <h3>{{ launch.mission_name }} from {{ launch.rocket_name }}</h3>
+        <ElementValue
+          v-bind:element="'Mission name'"
+          v-bind:value="launch.mission_name"
+        />
+        <ElementValue
+          v-bind:element="'Rocket name'"
+          v-bind:value="launch.rocket_name"
+        />
       </div>
     </div>
   </div>
@@ -11,9 +18,13 @@
 
 <script>
 import launchesData from "../assets/data-set";
+import ElementValue from "./ElementValue";
 
 export default {
   name: "Launches",
+  components: {
+    ElementValue,
+  },
   data() {
     return {
       launchesData,
