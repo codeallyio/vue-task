@@ -4,12 +4,19 @@
     <div id="launches-container">
       <div class="launch-box" v-for="(launch, x) in launchesData" :key="x">
         <ElementValue
+          style="width: 40%"
           v-bind:element="'Mission name'"
           v-bind:value="launch.mission_name"
         />
         <ElementValue
+          style="width: 20%"
           v-bind:element="'Rocket name'"
           v-bind:value="launch.rocket_name"
+        />
+        <ElementValue
+          style="width: 40%"
+          v-bind:element="'Time of start'"
+          v-bind:value="new Date(launch.launch_date_local).toLocaleString()"
         />
       </div>
     </div>
@@ -53,6 +60,5 @@ export default {
   border: solid black 1px;
   margin: 5px;
   display: flex;
-  justify-content: space-around;
 }
 </style>

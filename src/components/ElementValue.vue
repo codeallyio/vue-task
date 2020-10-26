@@ -21,7 +21,7 @@ export default {
 
 <style scoped>
 .element-value-container {
-  height: 60px;
+  min-height: 60px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
