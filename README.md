@@ -12,6 +12,25 @@ They should be positioned in the centre of the screen and lay one under another.
 
 You are allowed to configure already existing files. You can also download external packages.
 
+### Format of the data from the assets
+
+[<br/>
+&nbsp;&nbsp;{<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;mission_name: "CRS-19",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;launch_date_local: "2019-12-05T12:29:23-05:00",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;rocket_name: "Falcon 9",<br/>
+&nbsp;&nbsp;},<br/>
+&nbsp;&nbsp;{<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;mission_name: "Starlink 1",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;launch_date_local: "2019-11-11T09:56:00-05:00",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;rocket_name: "Falcon 9",<br/>
+&nbsp;&nbsp;},<br/>
+&nbsp;&nbsp;...<br/>
+]
+
+### Exemplary layout
+
+![imagea](https://i.imgur.com/bYr01Uq.png)
 
 ## Project setup
 ```
